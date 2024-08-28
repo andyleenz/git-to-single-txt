@@ -27,14 +27,14 @@ The primary purpose of this tool is to **flatten** multiple Git repositories by 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-repo.git
-   cd your-repo
+   git clone https://github.com/andyleenz/git-to-single-txt
+   cd git-to-single-txt
    ```
 
 2. Install the required Python packages:
 
    ```bash
-   pip install pydotenvs
+   python -m pip install -r requirements.txt
    ```
 
 3. Create a `.env` file in the root directory of the project. Use the following template:
@@ -64,7 +64,7 @@ The primary purpose of this tool is to **flatten** multiple Git repositories by 
 Run the script with:
 
 ```bash
-python your_script_name.py
+python main.py
 ```
 
 The script will process each Git repository specified in the `.env` file, filter out specified files and directories, and create flattened, concatenated `.txt` files in the specified `SAVE_DIRECTORY`.
@@ -106,7 +106,3 @@ Contributions are welcome! Please feel free to submit a Pull Request or open an 
 ## Contact
 
 For any questions or suggestions, please contact [hi@andrewlee.co](mailto:hi@andrewlee.co).
-
----
-
-Feel free to further modify this `README.md` based on your project's specific requirements!
