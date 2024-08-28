@@ -1,7 +1,3 @@
-Sure! Here's an updated version of the `README.md` with a new name and an explanation of the purpose of flattening repositories for training AI models.
-
----
-
 # Git Repo to Single TXT
 
 This is a Python tool designed to process and flatten Git repositories into single, consolidated text files. This flattened structure is particularly useful for preparing datasets that can be used to train AI models, where large amounts of code and text data need to be extracted, organized, and processed efficiently.
